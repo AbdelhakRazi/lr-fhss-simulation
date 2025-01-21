@@ -1,9 +1,3 @@
-% Paper title: Analysis and Simulation of LoRaWAN LR-FHSS for Direct-to-Satellite Scenario
-% IEEE XPlore: https://ieeexplore.ieee.org/document/9653679
-% Authors: Muhammad Asad Ullah, Konstantin Mikhaylov, Hirley Alves
-
-% Cite this: M. A. Ullah, K. Mikhaylov and H. Alves, "Analysis and Simulation of LoRaWAN LR-FHSS for Direct-to-Satellite Scenario," in IEEE Wireless Communications Letters, doi: 10.1109/LWC.2021.3135984.
-
 function [PS_DR8_analytical,H_N_Pro_succ,P_F] = DR8_analytical (N,pkct_p_h,Header_duration,F_duration,Last_fragment_duration,fragment_length,Header_N_DR8,Threshold,OBW_channels)
 
 %% Probability of header success

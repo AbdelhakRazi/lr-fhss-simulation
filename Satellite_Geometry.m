@@ -1,17 +1,6 @@
-% Paper title: Analysis and Simulation of LoRaWAN LR-FHSS for Direct-to-Satellite Scenario
-% IEEE XPlore: https://ieeexplore.ieee.org/document/9653679
-% Authors: Muhammad Asad Ullah, Konstantin Mikhaylov, Hirley Alves
-
-% Cite this: M. A. Ullah, K. Mikhaylov and H. Alves, "Analysis and Simulation of LoRaWAN LR-FHSS for Direct-to-Satellite Scenario," in IEEE Wireless Communications Letters, doi: 10.1109/LWC.2021.3135984.
-
 function [Distance, Elevation_Angles, Ground_distance,FootPrint_R] = Satellite_Geometry (H,E)
 
      %% Maximum distance from user to satellite 
-    % N. Okati and T. Riihonen, "Stochastic Analysis of Satellite Broadband by Mega-Constellations with Inclined LEOs," ...
-    .... 2020 IEEE 31st Annual International Symposium on Personal, Indoor and Mobile Radio Communications, London, United Kingdom, 2020, pp. 1-6
- 
-    % https://ieeexplore.ieee.org/document/9217379
-
     R = 6378e3;            %Radius of earth 
 
     X = cosd(E).*cosd(E);  %cos^2
